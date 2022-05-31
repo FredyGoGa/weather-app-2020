@@ -8,7 +8,7 @@ import { IconContext } from 'react-icons'
 import { WiDaySunny } from 'react-icons/wi'
 
 const WelcomePage = () => {
-    const iconContextSize = useMemo(() => ({ size:'6em'}), [])
+    const iconContextSize = useMemo(() => ({ size:'8em'}), [])
     return (
         <WelcomeScreen>
             <Grid container
@@ -30,13 +30,14 @@ const WelcomePage = () => {
                             justify="center"
                             alignItems="center">
                             <Typography variant="h4" color="inherit">
-                                Weather App
+                                Bienvenido
                             </Typography>
                             <Link color="inherit"
                                 aria-label="menu"
                                 component={RouterLink}
                                 to="/main">
-                                Ingresar
+                                Wather App 
+                                Ingresar 
                             </Link>
                         </Grid>
                     </Grid>
